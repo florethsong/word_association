@@ -1,0 +1,191 @@
+Model1              , Model2              ,  Statistic          , p-value              , Exact Test Used, p-adjusted (BH)   , Significant (alpha=0.05)
+word2vec            , GloVe               ,  -0.16              , 0.6891565167793516   , False          , 0.813290299304825 , False
+word2vec            , GloVe-CC            ,  -0.0333333333333333, 0.8551321405847059   , False          , 0.9309539130015984, False
+word2vec            , FastText            ,  -0.3               , 0.583882420770365    , False          , 0.7250827447475121, False
+word2vec            , FastText-CC         ,  -0.0               , 1.0                  , False          , 1.0               , False
+word2vec            , BERT-base (non-ctx) ,  14.204545454545457 , 0.0001639739389823   , False          , 0.0017308360225911, True
+word2vec            , BERT-base (ctx)     ,  14.01923076923077  , 0.0001809504904375   , False          , 0.0018095049043756, True
+word2vec            , BERT-large (non-ctx),  13.58695652173913  , 0.0002277626024503   , False          , 0.0021637447232785, True
+word2vec            , BERT-large (ctx)    ,  15.847826086956522 , 6.86453507683645e-05 , False          , 0.0010728771704608, True
+word2vec            , GPT-2 (non-ctx)     ,   5.78              , 0.0162095414092254   , False          , 0.0473817364269666, True
+word2vec            , GPT-2 (ctx)         ,   9.025             , 0.0026631192591385   , False          , 0.0114998331644619, True
+word2vec            , GPT-2-xl (non-ctx)  ,   4.447368421052632 , 0.0349550726436304   , False          , 0.0862527766531141, False
+word2vec            , GPT-2-xl (ctx)      ,   1.8285714285714283, 0.1762963744405072   , False          , 0.3038799275523281, False
+word2vec            , T5-small (non-ctx)  ,   3.2               , 0.0736382701203025   , False          , 0.1504437776651342, False
+word2vec            , T5-small (ctx)      ,   0.2142857142857142, 0.6434288435636206   , False          , 0.7836633351095379, False
+word2vec            , T5-3B (non-ctx)     ,   2.702702702702702 , 0.1001782942262679   , False          , 0.188454216861296 , False
+word2vec            , T5-3B (ctx)         ,   0.4324324324324324, 0.5107977981738965   , False          , 0.6693212527795884, False
+word2vec            , GPT-4.1             ,   0.0               , 1.0                  , False          , 1.0               , False
+word2vec            , DeepSeek-V3         ,   4.326923076923077 , 0.0375140016155401   , False          , 0.0890957538369078, False
+word2vec            , Qwen3               ,   9.446428571428571 , 0.0021156065158529   , False          , 0.0098243941721909, True
+GloVe               , GloVe-CC            ,  11.0               , 1.0                  , True           , 1.0               , False
+GloVe               , FastText            ,  -0.0               , 1.0                  , False          , 1.0               , False
+GloVe               , FastText-CC         ,   0.0333333333333333, 0.8551321405847059   , False          , 0.9309539130015984, False
+GloVe               , BERT-base (non-ctx) ,  16.680851063829788 , 4.42251621479542e-05 , False          , 0.0010728771704608, True
+GloVe               , BERT-base (ctx)     ,  18.367346938775512 , 1.821529714896796e-05, False          , 0.0010728771704608, True
+GloVe               , BERT-large (non-ctx),  16.680851063829788 , 4.42251621479542e-05 , False          , 0.0010728771704608, True
+GloVe               , BERT-large (ctx)    ,  16.9811320754717   , 3.775313521672051e-05, False          , 0.0010728771704608, True
+GloVe               , GPT-2 (non-ctx)     ,   7.84313725490196  , 0.0051013996460049   , False          , 0.0201930402654363, True
+GloVe               , GPT-2 (ctx)         ,   9.877551020408164 , 0.0016730747221523   , False          , 0.0088301165891372, True
+GloVe               , GPT-2-xl (non-ctx)  ,   6.564102564102564 , 0.0104056198688736   , False          , 0.0359466868197451, True
+GloVe               , GPT-2-xl (ctx)      ,   2.75              , 0.0972544284390033   , False          , 0.186649913165764 , False
+GloVe               , T5-small (non-ctx)  ,   4.6875            , 0.0303828219765774   , False          , 0.0790785777472564, False
+GloVe               , T5-small (ctx)      ,   0.8               , 0.3710933695226975   , False          , 0.5301333850324251, False
+GloVe               , T5-3B (non-ctx)     ,   6.035714285714286 , 0.0140192771139599   , False          , 0.0427391074327355, True
+GloVe               , T5-3B (ctx)         ,   1.225             , 0.2683816272927576   , False          , 0.4079400734849915, False
+GloVe               , GPT-4.1             ,   0.0263157894736842, 0.8711314915971582   , False          , 0.9309539130015984, False
+GloVe               , DeepSeek-V3         ,   6.352941176470588 , 0.0117186855997686   , False          , 0.0390515566278217, True
+GloVe               , Qwen3               ,  12.754716981132075 , 0.0003551124788348   , False          , 0.0026988548391452, True
+GloVe-CC            , FastText            , -10.0               , 0.8318119049072266   , True           , 0.9309539130015984, False
+GloVe-CC            , FastText-CC         ,  10.0               , 1.0                  , True           , 1.0               , False
+GloVe-CC            , BERT-base (non-ctx) ,  13.017857142857142 , 0.0003085346664628   , False          , 0.0026646175739971, True
+GloVe-CC            , BERT-base (ctx)     ,  16.82              , 4.109787809945878e-05, False          , 0.0010728771704608, True
+GloVe-CC            , BERT-large (non-ctx),  14.58              , 0.0001343327399405   , False          , 0.0015013659169823, True
+GloVe-CC            , BERT-large (ctx)    ,  16.173076923076923 , 5.780994557428517e-05, False          , 0.0010728771704608, True
+GloVe-CC            , GPT-2 (non-ctx)     ,   7.22              , 0.0072095707647425   , False          , 0.026135245988524 , True
+GloVe-CC            , GPT-2 (ctx)         ,   9.1875            , 0.002436734808989    , False          , 0.0110233241359026, True
+GloVe-CC            , GPT-2-xl (non-ctx)  ,   5.625             , 0.0177060658073666   , False          , 0.0509720076272676, False
+GloVe-CC            , GPT-2-xl (ctx)      ,   2.702702702702702 , 0.1001782942262679   , False          , 0.188454216861296 , False
+GloVe-CC            , T5-small (non-ctx)  ,   4.780487804878049 , 0.0287839658757383   , False          , 0.0759576877276429, False
+GloVe-CC            , T5-small (ctx)      ,   0.5208333333333334, 0.4704864220587895   , False          , 0.62952408585331  , False
+GloVe-CC            , T5-3B (non-ctx)     ,   3.5121951219512195, 0.0609186907797167   , False          , 0.1300511376196199, False
+GloVe-CC            , T5-3B (ctx)         ,   0.9230769230769232, 0.336668367610036    , False          , 0.4920537680454372, False
+GloVe-CC            , GPT-4.1             ,   0.0               , 1.0                  , False          , 1.0               , False
+GloVe-CC            , DeepSeek-V3         ,   6.020833333333333 , 0.0141379694559114   , False          , 0.0427391074327355, True
+GloVe-CC            , Qwen3               ,  11.574074074074074 , 0.0006687772911256   , False          , 0.0043816443211677, True
+FastText            , FastText-CC         ,   5.0               , 0.5810546875         , True           , 0.7250827447475121, False
+FastText            , BERT-base (non-ctx) ,  16.173076923076923 , 5.780994557428517e-05, False          , 0.0010728771704608, True
+FastText            , BERT-base (ctx)     ,  20.02083333333333  , 7.660302094057405e-06, False          , 0.0007277286989354, True
+FastText            , BERT-large (non-ctx),  16.173076923076923 , 5.780994557428517e-05, False          , 0.0010728771704608, True
+FastText            , BERT-large (ctx)    ,  20.02083333333333  , 7.660302094057405e-06, False          , 0.0007277286989354, True
+FastText            , GPT-2 (non-ctx)     ,  10.5               , 0.001193745444872    , False          , 0.0070878635789275, True
+FastText            , GPT-2 (ctx)         ,  10.173076923076923 , 0.0014250625619923   , False          , 0.0077360539079585, True
+FastText            , GPT-2-xl (non-ctx)  ,   9.633333333333333 , 0.0019107751373644   , False          , 0.0095469887254222, True
+FastText            , GPT-2-xl (ctx)      ,   4.114285714285714 , 0.0425224779980516   , False          , 0.0985276929223147, False
+FastText            , T5-small (non-ctx)  ,   6.918918918918919 , 0.0085288521540519   , False          , 0.0300089242457382, True
+FastText            , T5-small (ctx)      ,   1.3611111111111112, 0.2433450091487591   , False          , 0.3728673527279374, False
+FastText            , T5-3B (non-ctx)     ,   5.0256410256410255, 0.0249746792930542   , False          , 0.0687708560243521, False
+FastText            , T5-3B (ctx)         ,   1.7297297297297298, 0.1884454172427024   , False          , 0.3113446024009866, False
+FastText            , GPT-4.1             ,   0.0930232558139534, 0.7603683300552028   , False          , 0.8863189123342854, False
+FastText            , DeepSeek-V3         ,   6.016666666666667 , 0.0141713882540123   , False          , 0.0427391074327355, True
+FastText            , Qwen3               ,  11.390625          , 0.0007381569085501   , False          , 0.0045241875040169, True
+FastText-CC         , BERT-base (non-ctx) ,  12.754716981132075 , 0.0003551124788348   , False          , 0.0026988548391452, True
+FastText-CC         , BERT-base (ctx)     ,  15.372549019607844 , 8.826126346812178e-05, False          , 0.0011179760039295, True
+FastText-CC         , BERT-large (non-ctx),  12.290909090909093 , 0.0004551699698851   , False          , 0.0032030479362285, True
+FastText-CC         , BERT-large (ctx)    ,  16.0               , 6.334248366623988e-05, False          , 0.0010728771704608, True
+FastText-CC         , GPT-2 (non-ctx)     ,   7.2               , 0.0072903580915356   , False          , 0.026135245988524 , True
+FastText-CC         , GPT-2 (ctx)         ,   7.84313725490196  , 0.0051013996460049   , False          , 0.0201930402654363, True
+FastText-CC         , GPT-2-xl (non-ctx)  ,   6.32258064516129  , 0.011921001496914    , False          , 0.0390515566278217, True
+FastText-CC         , GPT-2-xl (ctx)      ,   2.892857142857143 , 0.0889730117018132   , False          , 0.1773986344885301, False
+FastText-CC         , T5-small (non-ctx)  ,   4.023809523809524 , 0.0448622711529148   , False          , 0.1026967652898051, False
+FastText-CC         , T5-small (ctx)      ,   0.3902439024390244, 0.5321712241488488   , False          , 0.68784035774341  , False
+FastText-CC         , T5-3B (non-ctx)     ,   2.75              , 0.0972544284390033   , False          , 0.186649913165764 , False
+FastText-CC         , T5-3B (ctx)         ,   0.7352941176470589, 0.3911725228101395   , False          , 0.5467612373414329, False
+FastText-CC         , GPT-4.1             ,   0.0217391304347826, 0.882783191152826    , False          , 0.9309539130015984, False
+FastText-CC         , DeepSeek-V3         ,   4.654545454545454 , 0.0309714316508462   , False          , 0.0795212434278484, False
+FastText-CC         , Qwen3               ,   9.442622950819672 , 0.0021200008476833   , False          , 0.0098243941721909, True
+BERT-base (non-ctx) , BERT-base (ctx)     ,   0.0238095238095238, 0.8773705560641434   , False          , 0.9309539130015984, False
+BERT-base (non-ctx) , BERT-large (non-ctx),   0.025             , 0.8743670611628918   , False          , 0.9309539130015984, False
+BERT-base (non-ctx) , BERT-large (ctx)    ,   0.0294117647058823, 0.8638317428547264   , False          , 0.9309539130015984, False
+BERT-base (non-ctx) , GPT-2 (non-ctx)     ,  -0.98              , 0.3221988061625787   , False          , 0.4782638528975777, False
+BERT-base (non-ctx) , GPT-2 (ctx)         ,  -0.625             , 0.4291953004403492   , False          , 0.5909210658236692, False
+BERT-base (non-ctx) , GPT-2-xl (non-ctx)  ,  -2.880952380952381 , 0.0896329942678889   , False          , 0.1773986344885301, False
+BERT-base (non-ctx) , GPT-2-xl (ctx)      ,  -5.224489795918367 , 0.0222709789592327   , False          , 0.0622277353272679, False
+BERT-base (non-ctx) , T5-small (non-ctx)  ,  -3.0638297872340425, 0.0800527823575797   , False          , 0.1618088154036187, False
+BERT-base (non-ctx) , T5-small (ctx)      ,  -9.58695652173913  , 0.0019596450541656   , False          , 0.0095469887254222, True
+BERT-base (non-ctx) , T5-3B (non-ctx)     ,  -4.780487804878049 , 0.0287839658757383   , False          , 0.0759576877276429, False
+BERT-base (non-ctx) , T5-3B (ctx)         , -10.256410256410255 , 0.0013621046715842   , False          , 0.0076117614000293, True
+BERT-base (non-ctx) , GPT-4.1             , -15.72093023255814  , 7.340738534732005e-05, False          , 0.0010728771704608, True
+BERT-base (non-ctx) , DeepSeek-V3         ,  -1.8409090909090908, 0.1748444336104108   , False          , 0.3038799275523281, False
+BERT-base (non-ctx) , Qwen3               ,  -0.0277777777777777, 0.8676323347781927   , False          , 0.9309539130015984, False
+BERT-base (ctx)     , BERT-large (non-ctx),  -0.0227272727272727, 0.8801684549067255   , False          , 0.9309539130015984, False
+BERT-base (ctx)     , BERT-large (ctx)    ,  -0.0294117647058823, 0.8638317428547264   , False          , 0.9309539130015984, False
+BERT-base (ctx)     , GPT-2 (non-ctx)     ,  -1.7608695652173914, 0.1845160908034063   , False          , 0.3075268180056772, False
+BERT-base (ctx)     , GPT-2 (ctx)         ,  -1.1666666666666667, 0.2800872108114943   , False          , 0.4223537305887613, False
+BERT-base (ctx)     , GPT-2-xl (non-ctx)  ,  -3.840909090909091 , 0.050016395485646    , False          , 0.1118013546149734, False
+BERT-base (ctx)     , GPT-2-xl (ctx)      ,  -7.2               , 0.0072903580915356   , False          , 0.026135245988524 , True
+BERT-base (ctx)     , T5-small (non-ctx)  ,  -4.355555555555555 , 0.0368884257070499   , False          , 0.0887189985359428, False
+BERT-base (ctx)     , T5-small (ctx)      , -11.5               , 0.0006959618992743   , False          , 0.004407758695404 , True
+BERT-base (ctx)     , T5-3B (non-ctx)     ,  -5.953488372093023 , 0.0146881919458477   , False          , 0.0436055698392356, True
+BERT-base (ctx)     , T5-3B (ctx)         ,  -9.132075471698114 , 0.0025116662630226   , False          , 0.0110980602319604, True
+BERT-base (ctx)     , GPT-4.1             , -15.372549019607844 , 8.826126346812178e-05, False          , 0.0011179760039295, True
+BERT-base (ctx)     , DeepSeek-V3         ,  -2.42              , 0.1197949304259189   , False          , 0.2188561228935057, False
+BERT-base (ctx)     , Qwen3               ,  -0.18              , 0.6713732405408727   , False          , 0.7972557231422863, False
+BERT-large (non-ctx), BERT-large (ctx)    ,   0.0263157894736842, 0.8711314915971582   , False          , 0.9309539130015984, False
+BERT-large (non-ctx), GPT-2 (non-ctx)     ,  -0.9423076923076924, 0.3316850680568596   , False          , 0.4885283948124289, False
+BERT-large (non-ctx), GPT-2 (ctx)         ,  -0.5208333333333334, 0.4704864220587895   , False          , 0.62952408585331  , False
+BERT-large (non-ctx), GPT-2-xl (non-ctx)  ,  -2.326923076923077 , 0.1271529926000142   , False          , 0.2257856877944177, False
+BERT-large (non-ctx), GPT-2-xl (ctx)      ,  -5.224489795918367 , 0.0222709789592327   , False          , 0.0622277353272679, False
+BERT-large (non-ctx), T5-small (non-ctx)  ,  -3.5121951219512195, 0.0609186907797167   , False          , 0.1300511376196199, False
+BERT-large (non-ctx), T5-small (ctx)      , -11.605263157894736 , 0.0006576543953178   , False          , 0.0043816443211677, True
+BERT-large (non-ctx), T5-3B (non-ctx)     ,  -4.780487804878049 , 0.0287839658757383   , False          , 0.0759576877276429, False
+BERT-large (non-ctx), T5-3B (ctx)         ,  -7.84313725490196  , 0.0051013996460049   , False          , 0.0201930402654363, True
+BERT-large (non-ctx), GPT-4.1             , -13.254901960784316 , 0.0002718680028822   , False          , 0.002459758121316 , True
+BERT-large (non-ctx), DeepSeek-V3         ,  -1.62              , 0.2030917875771642   , False          , 0.3242641986526152, False
+BERT-large (non-ctx), Qwen3               ,  -0.0208333333333333, 0.8852339144732015   , False          , 0.9309539130015984, False
+BERT-large (ctx)    , GPT-2 (non-ctx)     ,  -1.5576923076923077, 0.2120034309228221   , False          , 0.3328979493829438, False
+BERT-large (ctx)    , GPT-2 (ctx)         ,  -0.9074074074074074, 0.3408032468860819   , False          , 0.494294785559966 , False
+BERT-large (ctx)    , GPT-2-xl (non-ctx)  ,  -3.6739130434782608, 0.0552702806762724   , False          , 0.1221087596336251, False
+BERT-large (ctx)    , GPT-2-xl (ctx)      ,  -6.352941176470588 , 0.0117186855997686   , False          , 0.0390515566278217, True
+BERT-large (ctx)    , T5-small (non-ctx)  ,  -4.558139534883721 , 0.0327626450788598   , False          , 0.0829987008664449, False
+BERT-large (ctx)    , T5-small (ctx)      , -12.595238095238097 , 0.0003867307859055   , False          , 0.0028261095893098, True
+BERT-large (ctx)    , T5-3B (non-ctx)     ,  -6.243902439024391 , 0.0124621582945403   , False          , 0.0401323741688587, True
+BERT-large (ctx)    , T5-3B (ctx)         , -10.297872340425531 , 0.0013318368153214   , False          , 0.0076117614000293, True
+BERT-large (ctx)    , GPT-4.1             , -12.852459016393444 , 0.0003370360535563   , False          , 0.0026988548391452, True
+BERT-large (ctx)    , DeepSeek-V3         ,  -2.326923076923077 , 0.1271529926000142   , False          , 0.2257856877944177, False
+BERT-large (ctx)    , Qwen3               ,  -0.1875            , 0.6650055421020291   , False          , 0.7946607106879593, False
+GPT-2 (non-ctx)     , GPT-2 (ctx)         ,   0.0185185185185185, 0.8917558535067943   , False          , 0.9309539130015984, False
+GPT-2 (non-ctx)     , GPT-2-xl (non-ctx)  ,  -0.25              , 0.6170750774519739   , False          , 0.7564146110701615, False
+GPT-2 (non-ctx)     , GPT-2-xl (ctx)      ,  -1.641025641025641 , 0.2001848041775755   , False          , 0.324034728660736 , False
+GPT-2 (non-ctx)     , T5-small (non-ctx)  ,  -0.3720930232558139, 0.5418655957872516   , False          , 0.6909695516750188, False
+GPT-2 (non-ctx)     , T5-small (ctx)      ,  -3.840909090909091 , 0.050016395485646    , False          , 0.1118013546149734, False
+GPT-2 (non-ctx)     , T5-3B (non-ctx)     ,  -0.7659574468085106, 0.3814705611511898   , False          , 0.5408910941695976, False
+GPT-2 (non-ctx)     , T5-3B (ctx)         ,  -3.3488372093023258, 0.0672525042608307   , False          , 0.1388910414082373, False
+GPT-2 (non-ctx)     , GPT-4.1             ,  -7.2               , 0.0072903580915356   , False          , 0.026135245988524 , True
+GPT-2 (non-ctx)     , DeepSeek-V3         ,  -0.0208333333333333, 0.8852339144732015   , False          , 0.9309539130015984, False
+GPT-2 (non-ctx)     , Qwen3               ,   0.4807692307692308, 0.4880740931652478   , False          , 0.6484900538559237, False
+GPT-2 (ctx)         , GPT-2-xl (non-ctx)  ,  -0.5681818181818182, 0.4509823192688825   , False          , 0.6164506522380409, False
+GPT-2 (ctx)         , GPT-2-xl (ctx)      ,  -2.4390243902439024, 0.1183498127356284   , False          , 0.2188561228935057, False
+GPT-2 (ctx)         , T5-small (non-ctx)  ,  -0.8               , 0.3710933695226975   , False          , 0.5301333850324251, False
+GPT-2 (ctx)         , T5-small (ctx)      ,  -4.5               , 0.0338948535246892   , False          , 0.0847371338117232, False
+GPT-2 (ctx)         , T5-3B (non-ctx)     ,  -1.4222222222222225, 0.233037982273902    , False          , 0.3629280051806671, False
+GPT-2 (ctx)         , T5-3B (ctx)         ,  -4.355555555555555 , 0.0368884257070499   , False          , 0.0887189985359428, False
+GPT-2 (ctx)         , GPT-4.1             ,  -9.75609756097561  , 0.0017872890369872   , False          , 0.0091779707304751, True
+GPT-2 (ctx)         , DeepSeek-V3         ,  -0.1875            , 0.6650055421020291   , False          , 0.7946607106879593, False
+GPT-2 (ctx)         , Qwen3               ,   0.1956521739130435, 0.6582534143112833   , False          , 0.7946607106879593, False
+GPT-2-xl (non-ctx)  , GPT-2-xl (ctx)      ,  -0.4571428571428571, 0.498962298603761    , False          , 0.6583530328799625, False
+GPT-2-xl (non-ctx)  , T5-small (non-ctx)  ,  -0.0               , 1.0                  , False          , 1.0               , False
+GPT-2-xl (non-ctx)  , T5-small (ctx)      ,  -1.7608695652173914, 0.1845160908034063   , False          , 0.3075268180056772, False
+GPT-2-xl (non-ctx)  , T5-3B (non-ctx)     ,  -0.1142857142857142, 0.7353166906373405   , False          , 0.8624084643277451, False
+GPT-2-xl (non-ctx)  , T5-3B (ctx)         ,  -1.641025641025641 , 0.2001848041775755   , False          , 0.324034728660736 , False
+GPT-2-xl (non-ctx)  , GPT-4.1             ,  -4.170212765957447 , 0.0411406329720261   , False          , 0.0965027193170984, False
+GPT-2-xl (non-ctx)  , DeepSeek-V3         ,   0.0192307692307692, 0.8897069355331011   , False          , 0.9309539130015984, False
+GPT-2-xl (non-ctx)  , Qwen3               ,   1.5576923076923077, 0.2120034309228221   , False          , 0.3328979493829438, False
+GPT-2-xl (ctx)      , T5-small (non-ctx)  ,   0.25              , 0.6170750774519739   , False          , 0.7564146110701615, False
+GPT-2-xl (ctx)      , T5-small (ctx)      ,  -0.3902439024390244, 0.5321712241488488   , False          , 0.68784035774341  , False
+GPT-2-xl (ctx)      , T5-3B (non-ctx)     ,   0.0238095238095238, 0.8773705560641434   , False          , 0.9309539130015984, False
+GPT-2-xl (ctx)      , T5-3B (ctx)         ,  -0.3               , 0.583882420770365    , False          , 0.7250827447475121, False
+GPT-2-xl (ctx)      , GPT-4.1             ,  -1.7608695652173914, 0.1845160908034063   , False          , 0.3075268180056772, False
+GPT-2-xl (ctx)      , DeepSeek-V3         ,   0.7346938775510204, 0.3913659383075519   , False          , 0.5467612373414329, False
+GPT-2-xl (ctx)      , Qwen3               ,   3.5636363636363635, 0.0590582290905365   , False          , 0.1289777416919763, False
+T5-small (non-ctx)  , T5-small (ctx)      ,  -2.3703703703703702, 0.1236577104028336   , False          , 0.2237615712051275, False
+T5-small (non-ctx)  , T5-3B (non-ctx)     ,  -0.0294117647058823, 0.8638317428547264   , False          , 0.9309539130015984, False
+T5-small (non-ctx)  , T5-3B (ctx)         ,  -1.3611111111111112, 0.2433450091487591   , False          , 0.3728673527279374, False
+T5-small (non-ctx)  , GPT-4.1             ,  -3.38              , 0.0659920550593473   , False          , 0.1388910414082373, False
+T5-small (non-ctx)  , DeepSeek-V3         ,   0.0727272727272727, 0.7874064906662693   , False          , 0.9122392269914096, False
+T5-small (non-ctx)  , Qwen3               ,   1.818181818181818 , 0.1775298524121496   , False          , 0.3038799275523281, False
+T5-small (ctx)      , T5-3B (non-ctx)     ,   1.0285714285714285, 0.310494434317232    , False          , 0.4645192324431031, False
+T5-small (ctx)      , T5-3B (ctx)         ,   0.0               , 1.0                  , False          , 1.0               , False
+T5-small (ctx)      , GPT-4.1             ,  -0.3720930232558139, 0.5418655957872516   , False          , 0.6909695516750188, False
+T5-small (ctx)      , DeepSeek-V3         ,   2.42              , 0.1197949304259189   , False          , 0.2188561228935057, False
+T5-small (ctx)      , Qwen3               ,   7.520833333333333 , 0.0060989459312143   , False          , 0.0236489740189944, True
+T5-3B (non-ctx)     , T5-3B (ctx)         ,  -0.6944444444444444, 0.4046567619272861   , False          , 0.5612028085122946, False
+T5-3B (non-ctx)     , GPT-4.1             ,  -2.75              , 0.0972544284390033   , False          , 0.186649913165764 , False
+T5-3B (non-ctx)     , DeepSeek-V3         ,   0.3137254901960784, 0.5754030229127534   , False          , 0.7250827447475121, False
+T5-3B (non-ctx)     , Qwen3               ,   3.3488372093023258, 0.0672525042608307   , False          , 0.1388910414082373, False
+T5-3B (ctx)         , GPT-4.1             ,  -0.5208333333333334, 0.4704864220587895   , False          , 0.62952408585331  , False
+T5-3B (ctx)         , DeepSeek-V3         ,   1.818181818181818 , 0.1775298524121496   , False          , 0.3038799275523281, False
+T5-3B (ctx)         , Qwen3               ,   6.113207547169812 , 0.0134175410709151   , False          , 0.042488880057898 , True
+GPT-4.1             , DeepSeek-V3         ,   8.827586206896552 , 0.0029671058986476   , False          , 0.0125277804609565, True
+GPT-4.1             , Qwen3               ,  14.76923076923077  , 0.000121501975643    , False          , 0.0014428359607615, True
+DeepSeek-V3         , Qwen3               ,   1.6333333333333333, 0.2012426209577202   , False          , 0.324034728660736 , False

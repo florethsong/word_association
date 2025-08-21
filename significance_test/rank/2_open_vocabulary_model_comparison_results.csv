@@ -1,0 +1,191 @@
+model1,model2,statistic,p_value,significant
+word2vec,GloVe,5975208.0,6.18698e-24,True
+word2vec,GloVe-CC,6509284.0,6.58529e-14,True
+word2vec,FastText,5858496.0,1.5374400000000001e-18,True
+word2vec,FastText-CC,5063025.0,3.39351e-58,True
+word2vec,BERT-base (non-ctx),4871786.0,1.31194e-48,True
+word2vec,BERT-base (ctx),3622520.5,6.06401e-90,True
+word2vec,BERT-large (non-ctx),3875029.0,9.14242e-87,True
+word2vec,BERT-large (ctx),3429025.5,2.65304e-98,True
+word2vec,GPT-2 (non-ctx),1029873.5,4.0205e-217,True
+word2vec,GPT-2 (ctx),2144067.5,8.8233e-140,True
+word2vec,GPT-2-xl (non-ctx),1353458.0,1.043e-195,True
+word2vec,GPT-2-xl (ctx),3424496.5,1.35028e-87,True
+word2vec,T5-small (non-ctx),9262499.0,0.668202951,False
+word2vec,T5-small (ctx),8770065.5,0.054956558,False
+word2vec,T5-3B (non-ctx),8522828.0,6.78459e-05,True
+word2vec,T5-3B (ctx),4711680.0,2.46469e-57,True
+word2vec,GPT-4.1,3787691.5,0.0,True
+word2vec,DeepSeek-V3,3413485.0,0.0,True
+word2vec,Qwen3,3867133.5,0.0,True
+GloVe,GloVe-CC,7933280.0,0.033698484,True
+GloVe,FastText,8738739.5,0.122977323,False
+GloVe,FastText-CC,8975302.0,3.03124e-07,True
+GloVe,BERT-base (non-ctx),4273884.5,2.93566e-98,True
+GloVe,BERT-base (ctx),3274852.5,3.2836e-153,True
+GloVe,BERT-large (non-ctx),3528739.0,5.2429999999999985e-146,True
+GloVe,BERT-large (ctx),3133755.0,2.3915000000000003e-164,True
+GloVe,GPT-2 (non-ctx),877732.0,1.8064e-291,True
+GloVe,GPT-2 (ctx),1931548.0,2.5843e-210,True
+GloVe,GPT-2-xl (non-ctx),1284243.0,1.1065e-266,True
+GloVe,GPT-2-xl (ctx),3135508.0,1.705e-151,True
+GloVe,T5-small (non-ctx),8484621.0,1.96639e-16,True
+GloVe,T5-small (ctx),8278797.0,9.60926e-22,True
+GloVe,T5-3B (non-ctx),7815852.0,1.38987e-28,True
+GloVe,T5-3B (ctx),4165784.0,5.313100000000002e-116,True
+GloVe,GPT-4.1,5379758.5,0.0,True
+GloVe,DeepSeek-V3,4819805.5,0.0,True
+GloVe,Qwen3,5358867.5,0.0,True
+GloVe-CC,FastText,8643216.0,0.344460903,False
+GloVe-CC,FastText-CC,7170530.0,1.10589e-16,True
+GloVe-CC,BERT-base (non-ctx),4378779.0,1.39136e-95,True
+GloVe-CC,BERT-base (ctx),3540654.5,4.4036e-139,True
+GloVe-CC,BERT-large (non-ctx),3451413.5,5.468e-145,True
+GloVe-CC,BERT-large (ctx),3219955.5,6.4333e-156,True
+GloVe-CC,GPT-2 (non-ctx),911039.0,3.5652e-284,True
+GloVe-CC,GPT-2 (ctx),2182877.5,1.0497000000000001e-196,True
+GloVe-CC,GPT-2-xl (non-ctx),1251637.0,7.2475999999999985e-261,True
+GloVe-CC,GPT-2-xl (ctx),3290450.0,7.8389e-142,True
+GloVe-CC,T5-small (non-ctx),8675943.5,2.40044e-12,True
+GloVe-CC,T5-small (ctx),8357340.5,2.02612e-17,True
+GloVe-CC,T5-3B (non-ctx),7789971.0,1.9402700000000003e-24,True
+GloVe-CC,T5-3B (ctx),4232662.0,6.5228e-106,True
+GloVe-CC,GPT-4.1,4963642.5,0.0,True
+GloVe-CC,DeepSeek-V3,4466559.0,0.0,True
+GloVe-CC,Qwen3,5069991.0,0.0,True
+FastText,FastText-CC,5461039.0,1.3408e-20,True
+FastText,BERT-base (non-ctx),4006067.5,5.5773e-107,True
+FastText,BERT-base (ctx),2949950.5,4.5254e-161,True
+FastText,BERT-large (non-ctx),3215721.0,2.4842e-154,True
+FastText,BERT-large (ctx),2824002.0,1.2953e-173,True
+FastText,GPT-2 (non-ctx),731150.0,6.736999999999999e-298,True
+FastText,GPT-2 (ctx),1729214.5,3.0952e-218,True
+FastText,GPT-2-xl (non-ctx),974614.5,1.1842e-277,True
+FastText,GPT-2-xl (ctx),2613860.5,3.2826e-163,True
+FastText,T5-small (non-ctx),8322742.0,2.97287e-15,True
+FastText,T5-small (ctx),8255048.5,3.0453600000000006e-18,True
+FastText,T5-3B (non-ctx),7667207.5,9.55546e-28,True
+FastText,T5-3B (ctx),3677361.0,6.3641e-123,True
+FastText,GPT-4.1,5228178.0,0.0,True
+FastText,DeepSeek-V3,4686459.0,0.0,True
+FastText,Qwen3,5301625.0,0.0,True
+FastText-CC,BERT-base (non-ctx),3754837.0,8.5955e-159,True
+FastText-CC,BERT-base (ctx),3037470.5,2.0261e-208,True
+FastText-CC,BERT-large (non-ctx),3118108.0,2.8985e-211,True
+FastText-CC,BERT-large (ctx),2696338.0,2.9902e-230,True
+FastText-CC,GPT-2 (non-ctx),802909.5,0.0,True
+FastText-CC,GPT-2 (ctx),1661142.0,7.3911e-277,True
+FastText-CC,GPT-2-xl (non-ctx),979842.5,0.0,True
+FastText-CC,GPT-2-xl (ctx),2780550.0,8.786100000000001e-211,True
+FastText-CC,T5-small (non-ctx),7831942.5,1.11687e-37,True
+FastText-CC,T5-small (ctx),7666815.5,7.42702e-46,True
+FastText-CC,T5-3B (non-ctx),7264851.0,3.87635e-59,True
+FastText-CC,T5-3B (ctx),3486567.0,4.3083e-178,True
+FastText-CC,GPT-4.1,5469138.5,0.0,True
+FastText-CC,DeepSeek-V3,4965412.0,0.0,True
+FastText-CC,Qwen3,5722411.0,0.0,True
+BERT-base (non-ctx),BERT-base (ctx),3461366.5,3.24268e-12,True
+BERT-base (non-ctx),BERT-large (non-ctx),3865331.5,8.35027e-13,True
+BERT-base (non-ctx),BERT-large (ctx),3587431.5,1.22589e-17,True
+BERT-base (non-ctx),GPT-2 (non-ctx),1203844.0,9.115e-94,True
+BERT-base (non-ctx),GPT-2 (ctx),2891290.5,4.07066e-32,True
+BERT-base (non-ctx),GPT-2-xl (non-ctx),1545956.5,7.03743e-77,True
+BERT-base (non-ctx),GPT-2-xl (ctx),4311493.0,9.55551e-09,True
+BERT-base (non-ctx),T5-small (non-ctx),5314373.0,9.97861e-36,True
+BERT-base (non-ctx),T5-small (ctx),5789920.5,6.8364000000000015e-31,True
+BERT-base (non-ctx),T5-3B (non-ctx),5414566.0,9.42077e-24,True
+BERT-base (non-ctx),T5-3B (ctx),5638281.0,0.466567655,False
+BERT-base (non-ctx),GPT-4.1,2715018.5,0.0,True
+BERT-base (non-ctx),DeepSeek-V3,2584242.0,0.0,True
+BERT-base (non-ctx),Qwen3,2760685.0,0.0,True
+BERT-base (ctx),BERT-large (non-ctx),4522489.5,0.755824423,False
+BERT-base (ctx),BERT-large (ctx),3811231.0,0.066281984,False
+BERT-base (ctx),GPT-2 (non-ctx),1322372.5,3.69162e-49,True
+BERT-base (ctx),GPT-2 (ctx),2960055.5,2.88017e-09,True
+BERT-base (ctx),GPT-2-xl (non-ctx),1628601.0,6.35125e-38,True
+BERT-base (ctx),GPT-2-xl (ctx),4305746.5,0.249279005,False
+BERT-base (ctx),T5-small (non-ctx),3739344.5,4.25861e-73,True
+BERT-base (ctx),T5-small (ctx),4073407.5,6.94259e-68,True
+BERT-base (ctx),T5-3B (non-ctx),3982176.0,4.82719e-53,True
+BERT-base (ctx),T5-3B (ctx),4327623.5,3.18212e-08,True
+BERT-base (ctx),GPT-4.1,2159537.5,0.0,True
+BERT-base (ctx),DeepSeek-V3,1939916.5,0.0,True
+BERT-base (ctx),Qwen3,2056613.5,0.0,True
+BERT-large (non-ctx),BERT-large (ctx),4185754.0,0.09192265,False
+BERT-large (non-ctx),GPT-2 (non-ctx),1217380.0,1.09247e-53,True
+BERT-large (non-ctx),GPT-2 (ctx),3442437.5,4.08201e-07,True
+BERT-large (non-ctx),GPT-2-xl (non-ctx),1730221.0,1.75365e-35,True
+BERT-large (non-ctx),GPT-2-xl (ctx),4769685.5,0.242287038,False
+BERT-large (non-ctx),T5-small (non-ctx),3819762.5,5.2874499999999997e-79,True
+BERT-large (non-ctx),T5-small (ctx),4260581.0,2.14406e-69,True
+BERT-large (non-ctx),T5-3B (non-ctx),3978554.5,5.49997e-59,True
+BERT-large (non-ctx),T5-3B (ctx),4527282.5,2.27738e-09,True
+BERT-large (non-ctx),GPT-4.1,2165506.0,0.0,True
+BERT-large (non-ctx),DeepSeek-V3,1840506.5,0.0,True
+BERT-large (non-ctx),Qwen3,2321777.0,0.0,True
+BERT-large (ctx),GPT-2 (non-ctx),1238523.0,8.09505e-43,True
+BERT-large (ctx),GPT-2 (ctx),3327113.0,0.000169275,True
+BERT-large (ctx),GPT-2-xl (non-ctx),1787634.5,2.4352e-28,True
+BERT-large (ctx),GPT-2-xl (ctx),4086805.0,0.012016612,True
+BERT-large (ctx),T5-small (non-ctx),3576910.5,5.91321e-85,True
+BERT-large (ctx),T5-small (ctx),3500261.5,7.38861e-84,True
+BERT-large (ctx),T5-3B (non-ctx),3729870.5,8.41498e-65,True
+BERT-large (ctx),T5-3B (ctx),3802625.0,3.74411e-15,True
+BERT-large (ctx),GPT-4.1,1929438.5,0.0,True
+BERT-large (ctx),DeepSeek-V3,1731470.5,0.0,True
+BERT-large (ctx),Qwen3,1935832.0,0.0,True
+GPT-2 (non-ctx),GPT-2 (ctx),1289513.0,2.0983900000000003e-28,True
+GPT-2 (non-ctx),GPT-2-xl (non-ctx),1187590.0,0.0005124,True
+GPT-2 (non-ctx),GPT-2-xl (ctx),1346001.0,2.90731e-58,True
+GPT-2 (non-ctx),T5-small (non-ctx),1160794.0,3.1224e-193,True
+GPT-2 (non-ctx),T5-small (ctx),1214949.5,3.058e-190,True
+GPT-2 (non-ctx),T5-3B (non-ctx),1004448.0,9.488e-178,True
+GPT-2 (non-ctx),T5-3B (ctx),1099754.5,3.154e-99,True
+GPT-2 (non-ctx),GPT-4.1,890645.5,0.0,True
+GPT-2 (non-ctx),DeepSeek-V3,707033.5,0.0,True
+GPT-2 (non-ctx),Qwen3,775078.5,0.0,True
+GPT-2 (ctx),GPT-2-xl (non-ctx),1707621.5,5.99531e-16,True
+GPT-2 (ctx),GPT-2-xl (ctx),2311967.0,1.69134e-12,True
+GPT-2 (ctx),T5-small (non-ctx),2592120.0,1.6605e-116,True
+GPT-2 (ctx),T5-small (ctx),2706694.5,9.3449e-109,True
+GPT-2 (ctx),T5-3B (non-ctx),2765998.5,4.50308e-94,True
+GPT-2 (ctx),T5-3B (ctx),3048716.5,1.65893e-29,True
+GPT-2 (ctx),GPT-4.1,1375445.0,0.0,True
+GPT-2 (ctx),DeepSeek-V3,1333836.5,0.0,True
+GPT-2 (ctx),Qwen3,1412913.0,0.0,True
+GPT-2-xl (non-ctx),GPT-2-xl (ctx),1669058.0,1.40292e-42,True
+GPT-2-xl (non-ctx),T5-small (non-ctx),1555709.0,2.2440999999999997e-174,True
+GPT-2-xl (non-ctx),T5-small (ctx),1635795.5,3.5491e-168,True
+GPT-2-xl (non-ctx),T5-3B (non-ctx),1642655.0,2.0546e-146,True
+GPT-2-xl (non-ctx),T5-3B (ctx),1539589.0,6.681509999999999e-79,True
+GPT-2-xl (non-ctx),GPT-4.1,957582.0,0.0,True
+GPT-2-xl (non-ctx),DeepSeek-V3,764212.0,0.0,True
+GPT-2-xl (non-ctx),Qwen3,869842.0,0.0,True
+GPT-2-xl (ctx),T5-small (non-ctx),3784874.5,5.52869e-73,True
+GPT-2-xl (ctx),T5-small (ctx),3824316.0,5.216080000000001e-69,True
+GPT-2-xl (ctx),T5-3B (non-ctx),4176577.5,6.509240000000002e-53,True
+GPT-2-xl (ctx),T5-3B (ctx),4233271.0,1.40312e-07,True
+GPT-2-xl (ctx),GPT-4.1,1997200.0,0.0,True
+GPT-2-xl (ctx),DeepSeek-V3,1934168.0,0.0,True
+GPT-2-xl (ctx),Qwen3,2063574.0,0.0,True
+T5-small (non-ctx),T5-small (ctx),5429256.5,0.001308056,True
+T5-small (non-ctx),T5-3B (non-ctx),7036703.0,0.001248765,True
+T5-small (non-ctx),T5-3B (ctx),3797184.0,4.86565e-59,True
+T5-small (non-ctx),GPT-4.1,3356014.0,0.0,True
+T5-small (non-ctx),DeepSeek-V3,3062019.0,0.0,True
+T5-small (non-ctx),Qwen3,3770482.0,0.0,True
+T5-small (ctx),T5-3B (non-ctx),7595822.0,0.312995598,False
+T5-small (ctx),T5-3B (ctx),3801204.5,5.39854e-53,True
+T5-small (ctx),GPT-4.1,2622586.5,0.0,True
+T5-small (ctx),DeepSeek-V3,2417376.0,0.0,True
+T5-small (ctx),Qwen3,2993689.0,0.0,True
+T5-3B (non-ctx),T5-3B (ctx),3921163.0,5.37368e-42,True
+T5-3B (non-ctx),GPT-4.1,3410573.0,0.0,True
+T5-3B (non-ctx),DeepSeek-V3,2979150.0,0.0,True
+T5-3B (non-ctx),Qwen3,3844197.5,0.0,True
+T5-3B (ctx),GPT-4.1,2310825.0,0.0,True
+T5-3B (ctx),DeepSeek-V3,1967034.0,0.0,True
+T5-3B (ctx),Qwen3,2538608.0,0.0,True
+GPT-4.1,DeepSeek-V3,9051068.5,1.24858e-72,True
+GPT-4.1,Qwen3,14110384.0,7.11292e-05,True
+DeepSeek-V3,Qwen3,11250013.0,1.5462899999999998e-39,True
