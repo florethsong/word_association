@@ -1,0 +1,201 @@
+dataset	category	A	B	C	AB	AC	BC	total	pAB	pAC	pBC
+abstract	Physical condition	complaint	harm	phobia	16	8	16	40	0.40	0.20	0.40
+abstract	Feeling	disgust	fondness	grief	2	29	9	40	0.05	0.73	0.23
+abstract	Statement	bargain	comment	summary	4	4	32	40	0.10	0.10	0.80
+abstract	Feeling	fury	hope	thrill	4	8	28	40	0.10	0.20	0.70
+abstract	Social group	enemy	seminar	sorority	0	9	30	39	0.00	0.23	0.77
+abstract	Social group	clan	dynasty	industry	34	2	3	39	0.87	0.05	0.08
+abstract	Idea	fallacy	notion	plan	12	1	25	38	0.32	0.03	0.66
+abstract	Psychological State	bliss	madness	paranoia	1	1	38	40	0.03	0.03	0.95
+abstract	Person	brute	wanderer	weirdo	5	15	19	39	0.13	0.38	0.49
+abstract	Action	journey	rush	trick	37	2	1	40	0.93	0.05	0.03
+abstract	Magnitude	depth	majority	size	1	26	13	40	0.03	0.65	0.33
+abstract	Change	gesture	reform	repair	3	2	35	40	0.08	0.05	0.88
+abstract	Person	corporal	expert	youth	31	6	3	40	0.78	0.15	0.08
+abstract	Bias	bias	prejudice	racism	18	2	20	40	0.45	0.05	0.50
+abstract	Action	flutter	rampage	selection	13	25	2	40	0.33	0.63	0.05
+abstract	Feeling	fetish	lust	wrath	36	1	3	40	0.90	0.03	0.08
+abstract	Activity	care	monopoly	treason	9	0	31	40	0.23	0.00	0.78
+abstract	Feeling	pity	pride	surprise	14	7	19	40	0.35	0.18	0.48
+abstract	Feeling	affection	ambition	heartache	11	28	1	40	0.28	0.70	0.03
+abstract	Time period	morning	period	vacation	24	4	12	40	0.60	0.10	0.30
+abstract	Emotion	happiness	panic	tantrum	0	1	39	40	0.00	0.03	0.98
+abstract	Person	darling	hero	thinker	19	5	16	40	0.48	0.13	0.40
+abstract	Cognition	ghost	sight	theory	9	14	17	40	0.23	0.35	0.43
+abstract	Feeling	delight	horror	wonder	5	35	0	40	0.13	0.88	0.00
+abstract	Region	frontier	heaven	paradise	1	1	38	40	0.03	0.03	0.95
+abstract	Statement	evasion	notice	reply	3	6	31	40	0.08	0.15	0.78
+abstract	Person	heir	rebel	supporter	2	24	14	40	0.05	0.60	0.35
+abstract	Psychological State	annoyance	insanity	tension	2	29	9	40	0.05	0.73	0.23
+abstract	Change	breakup	rotation	voyage	11	8	21	40	0.28	0.20	0.53
+abstract	Physical condition	frenzy	handicap	hunger	8	25	6	39	0.21	0.64	0.15
+abstract	Feeling	amazement	outrage	rapture	4	25	10	39	0.10	0.64	0.26
+abstract	Physical condition	addiction	insomnia	plague	16	16	8	40	0.40	0.40	0.20
+abstract	Person	patriot	sweetie	whiz	6	10	23	39	0.15	0.26	0.59
+abstract	Content	agenda	ignorance	rule	3	32	5	40	0.08	0.80	0.13
+abstract	Feeling	fear	jealousy	mood	22	7	11	40	0.55	0.18	0.28
+abstract	Physical condition	disease	sickness	thirst	39	0	1	40	0.98	0.00	0.03
+abstract	Region	hell	premises	territory	1	5	34	40	0.03	0.13	0.85
+abstract	Cognitive state	certainty	disbelief	mystery	8	3	29	40	0.20	0.08	0.73
+abstract	Belief	faith	magic	opinion	21	19	0	40	0.53	0.48	0.00
+abstract	Feeling	emotion	enjoyment	envy	19	18	3	40	0.48	0.45	0.08
+abstract	Feeling	dismay	distress	suspense	33	2	5	40	0.83	0.05	0.13
+abstract	Time period	birthday	evening	semester	19	5	16	40	0.48	0.13	0.40
+abstract	Cognition	folklore	intuition	regard	16	4	19	39	0.41	0.10	0.49
+abstract	Region	district	homeland	region	5	30	5	40	0.13	0.75	0.13
+abstract	Time period	century	holiday	maturity	5	32	3	40	0.13	0.80	0.08
+abstract	Activity	betrayal	espionage	hassle	34	2	2	38	0.89	0.05	0.05
+abstract	Transferred property	donation	rent	royalty	12	22	6	40	0.30	0.55	0.15
+abstract	Cost	bounty	perk	ransom	9	29	2	40	0.23	0.73	0.05
+abstract	Ability	aptitude	breadth	invention	16	18	3	37	0.43	0.49	0.08
+abstract	Activity	arrogance	endeavor	support	8	1	31	40	0.20	0.03	0.78
+abstract	Basic cognitive process	attention	memory	vogue	30	6	3	39	0.77	0.15	0.08
+abstract	Social group	ally	meeting	monarchy	16	21	3	40	0.40	0.53	0.08
+abstract	Science	algebra	geology	science	3	11	26	40	0.08	0.28	0.65
+abstract	Activity	crime	research	scramble	11	17	12	40	0.28	0.43	0.30
+abstract	Idea	feature	scheme	tactic	6	4	30	40	0.15	0.10	0.75
+abstract	Social group	minority	regime	utility	15	4	21	40	0.38	0.10	0.53
+abstract	Activity	mayhem	stealth	theft	4	14	21	39	0.10	0.36	0.54
+abstract	Cognition	illusion	layout	respect	22	8	10	40	0.55	0.20	0.25
+abstract	Content	access	essence	idea	3	8	29	40	0.08	0.20	0.73
+abstract	Activity	custom	education	rehearsal	11	10	19	40	0.28	0.25	0.48
+abstract	Ability	daydream	focus	method	13	1	26	40	0.33	0.03	0.65
+abstract	Person	dreamer	hick	novice	6	20	13	39	0.15	0.51	0.33
+abstract	Act	capture	expansion	pursuit	1	28	11	40	0.03	0.70	0.28
+abstract	Belief	creed	phantom	religion	5	32	2	39	0.13	0.82	0.05
+abstract	Person	communist	fool	outsider	5	20	15	40	0.13	0.50	0.38
+abstract	Person	counsel	foe	snob	7	10	23	40	0.18	0.25	0.58
+abstract	Person	addict	delegate	slob	6	31	3	40	0.15	0.78	0.08
+abstract	Activity	adventure	training	treatment	22	2	16	40	0.55	0.05	0.40
+abstract	Feeling	contempt	grudge	remorse	25	7	8	40	0.63	0.18	0.20
+abstract	Social group	business	charity	reunion	28	7	5	40	0.70	0.18	0.13
+abstract	Activity	craft	crusade	raid	2	1	36	39	0.05	0.03	0.92
+abstract	Statement	covenant	excuse	remark	1	5	31	37	0.03	0.14	0.84
+abstract	Action	admission	courtesy	removal	29	10	1	40	0.73	0.25	0.03
+abstract	Process	hindsight	insight	sweetness	35	3	2	40	0.88	0.08	0.05
+abstract	Location	boundary	empire	zone	5	31	4	40	0.13	0.78	0.10
+abstract	Discipline	economics	logic	sociology	14	21	5	40	0.35	0.53	0.13
+abstract	Magnitude	dimension	limit	number	11	18	11	40	0.28	0.45	0.28
+abstract	Feeling	anguish	dread	joy	34	4	2	40	0.85	0.10	0.05
+abstract	Person	graduate	savior	scoundrel	28	2	9	39	0.72	0.05	0.23
+abstract	Ability	fantasy	intellect	talent	3	3	34	40	0.08	0.08	0.85
+abstract	Activity	bribery	hoax	struggle	24	13	3	40	0.60	0.33	0.08
+abstract	Transferred property	benefit	legacy	welfare	5	32	3	40	0.13	0.80	0.08
+abstract	Activity	mischief	nightlife	violation	13	27	0	40	0.33	0.68	0.00
+abstract	Person	ancestor	believer	sir	13	27	0	40	0.33	0.68	0.00
+abstract	Action	debut	progress	violence	33	2	4	39	0.85	0.05	0.10
+abstract	Person	follower	optimist	sinner	27	10	3	40	0.68	0.25	0.08
+abstract	Attitude	ideology	socialism	taboo	33	5	2	40	0.83	0.13	0.05
+abstract	Activity	adoption	work	worship	10	16	14	40	0.25	0.40	0.35
+abstract	Feeling	boredom	devotion	empathy	0	2	38	40	0.00	0.05	0.95
+abstract	Person	guardian	liar	moron	1	1	38	40	0.03	0.03	0.95
+abstract	Feeling	anger	ecstasy	relief	7	3	30	40	0.18	0.08	0.75
+abstract	Feeling	awe	ego	love	2	35	3	40	0.05	0.88	0.08
+abstract	Activity	gaming	restraint	role	3	30	7	40	0.08	0.75	0.18
+abstract	Person	disciple	fanatic	killer	21	1	18	40	0.53	0.03	0.45
+abstract	Time period	childhood	era	year	12	3	25	40	0.30	0.08	0.63
+abstract	Feeling	desire	relish	vanity	20	18	2	40	0.50	0.45	0.05
+abstract	Person	celebrity	foreigner	maniac	15	18	6	39	0.38	0.46	0.15
+abstract	Psychological State	assurance	interest	sanity	22	18	0	40	0.55	0.45	0.00
+abstract	Cognition	estimate	sensation	wisdom	6	16	18	40	0.15	0.40	0.45
+abstract	Science	astronomy	math	physics	1	17	22	40	0.03	0.43	0.55
+concrete	Birds	falcon	flamingo	penguin	13	1	26	40	0.33	0.03	0.65
+concrete	Birds	parrot	pelican	turkey	28	7	5	40	0.70	0.18	0.13
+concrete	Birds	crow	ostrich	owl	1	33	6	40	0.03	0.83	0.15
+concrete	Birds	chicken	parakeet	pigeon	2	18	20	40	0.05	0.45	0.50
+concrete	Birds	blackbird	eagle	raven	1	28	11	40	0.03	0.70	0.28
+concrete	Body Part	elbow	nipple	skin	13	14	13	40	0.33	0.35	0.33
+concrete	Body Part	face	foot	heel	1	0	39	40	0.03	0.00	0.98
+concrete	Body Part	hand	lip	tongue	0	1	39	40	0.00	0.03	0.98
+concrete	Body Part	finger	heart	toe	2	38	0	40	0.05	0.95	0.00
+concrete	Body Part	ear	leg	thumb	5	14	21	40	0.13	0.35	0.53
+concrete	Colors	crimson	pink	yellow	29	4	7	40	0.73	0.10	0.18
+concrete	Colors	green	khaki	purple	25	13	2	40	0.63	0.33	0.05
+concrete	Fruit	coconut	melon	raspberry	16	0	24	40	0.40	0.00	0.60
+concrete	Crustacean	oyster	prawn	shrimp	2	1	37	40	0.05	0.03	0.93
+concrete	Fish	dolphin	shark	whale	10	22	8	40	0.25	0.55	0.20
+concrete	Fish	salmon	squid	swordfish	2	33	5	40	0.05	0.83	0.13
+concrete	Fish	goldfish	jellyfish	trout	6	33	1	40	0.15	0.83	0.03
+concrete	Fish	cod	octopus	tuna	1	39	0	40	0.03	0.98	0.00
+concrete	Fish	carp	eel	herring	5	32	3	40	0.13	0.80	0.08
+concrete	Fruit	grape	lemon	lime	1	0	39	40	0.03	0.00	0.98
+concrete	Fruit	blueberry	fig	mango	10	17	13	40	0.25	0.43	0.33
+concrete	Fruit	apricot	pear	raisin	29	10	1	40	0.73	0.25	0.03
+concrete	Fruit	banana	cherry	pineapple	7	26	7	40	0.18	0.65	0.18
+concrete	Fruit	kiwi	peach	plum	6	3	31	40	0.15	0.08	0.78
+concrete	Geological Formation	grass	gully	mountain	7	10	22	39	0.18	0.26	0.56
+concrete	Geological Formation	beach	cave	ravine	8	2	30	40	0.20	0.05	0.75
+concrete	Geological Formation	crater	glacier	volcano	5	33	2	40	0.13	0.83	0.05
+concrete	Insects	beetle	flea	termite	1	18	21	40	0.03	0.45	0.53
+concrete	Insects	butterfly	ladybug	worm	37	0	3	40	0.93	0.00	0.08
+concrete	Insects	ant	cockroach	leech	26	0	14	40	0.65	0.00	0.35
+concrete	Insects	mosquito	moth	wasp	9	25	6	40	0.23	0.63	0.15
+concrete	Insects	slug	snail	spider	38	1	1	40	0.95	0.03	0.03
+concrete	Mammals	rabbit	walrus	zebra	8	21	11	40	0.20	0.53	0.28
+concrete	Mammals	giraffe	leopard	sheep	29	10	1	40	0.73	0.25	0.03
+concrete	Mammals	cat	dog	gorilla	39	1	0	40	0.98	0.03	0.00
+concrete	Mammals	deer	hamster	lion	8	31	1	40	0.20	0.78	0.03
+concrete	Mammals	kangaroo	mouse	pony	6	20	14	40	0.15	0.50	0.35
+concrete	Mammals	camel	cow	otter	35	1	4	40	0.88	0.03	0.10
+concrete	Mammals	bear	rat	tiger	3	36	1	40	0.08	0.90	0.03
+concrete	Mammals	beaver	goat	horse	1	1	38	40	0.03	0.03	0.95
+concrete	Reptiles	crocodile	frog	tortoise	5	16	19	40	0.13	0.40	0.48
+concrete	Birds	canary	duck	goose	6	1	33	40	0.15	0.03	0.83
+concrete	Reptiles	alligator	cobra	lizard	1	27	12	40	0.03	0.68	0.30
+concrete	Tree	cedar	fir	willow	19	16	5	40	0.48	0.40	0.13
+concrete	Mammals	elephant	hyena	panther	2	2	36	40	0.05	0.05	0.90
+concrete	Vegetables	broccoli	eggplant	onion	24	6	10	40	0.60	0.15	0.25
+concrete	Vegetables	cucumber	spinach	zucchini	8	32	0	40	0.20	0.80	0.00
+concrete	Vegetables	avocado	cabbage	mushroom	18	5	17	40	0.45	0.13	0.43
+concrete	Vegetables	artichoke	lettuce	tomato	12	3	25	40	0.30	0.08	0.63
+concrete	Vegetables	carrot	radish	turnip	7	11	22	40	0.18	0.28	0.55
+concrete	Breakfast	jam	sandwich	toast	3	15	22	40	0.08	0.38	0.55
+concrete	Breakfast	bread	muffin	oatmeal	30	7	3	40	0.75	0.18	0.08
+concrete	Buildings	apartment	hotel	temple	36	2	2	40	0.90	0.05	0.05
+concrete	Buildings	office	tent	trailer	1	5	34	40	0.03	0.13	0.85
+concrete	Buildings	cabin	castle	church	5	2	33	40	0.13	0.05	0.83
+concrete	Clothing	coat	parka	swimsuit	38	0	1	39	0.97	0.00	0.03
+concrete	Clothing	blouse	gown	suit	16	10	14	40	0.40	0.25	0.35
+concrete	Clothing	bikini	jacket	sweater	0	0	40	40	0.00	0.00	1.00
+concrete	Drinks	beer	milk	tea	0	2	38	40	0.00	0.05	0.95
+concrete	Drinks	coffee	vodka	whiskey	1	1	38	40	0.03	0.03	0.95
+concrete	Drinks	champagne	lemonade	wine	3	37	0	40	0.08	0.93	0.00
+concrete	Electronic Devices	computer	monitor	telephone	38	2	0	40	0.95	0.05	0.00
+concrete	Electronic Devices	camera	projector	radio	36	2	2	40	0.90	0.05	0.05
+concrete	Fabric	linen	satin	wool	14	24	2	40	0.35	0.60	0.05
+concrete	Fabric	denim	silk	velvet	5	3	32	40	0.13	0.08	0.80
+concrete	Fabric	cotton	fleece	lace	21	16	3	40	0.53	0.40	0.08
+concrete	Fashion Accessories	bracelet	buckle	purse	25	8	7	40	0.63	0.20	0.18
+concrete	Fashion Accessories	button	lipstick	watch	2	31	7	40	0.05	0.78	0.18
+concrete	Fashion Accessories	necklace	shawl	umbrella	26	0	13	39	0.67	0.00	0.33
+concrete	Food	omelet	roll	spaghetti	15	18	7	40	0.38	0.45	0.18
+concrete	Food	hamburger	lasagna	stew	12	4	24	40	0.30	0.10	0.60
+concrete	Food	donut	fudge	lollipop	19	5	16	40	0.48	0.13	0.40
+concrete	Furniture	chair	couch	desk	24	16	0	40	0.60	0.40	0.00
+concrete	Furniture	cupboard	stool	table	0	3	37	40	0.00	0.08	0.93
+concrete	Furniture	bath	bed	dresser	8	2	30	40	0.20	0.05	0.75
+concrete	Kitchen Utensils	blender	mixer	scissors	39	0	1	40	0.98	0.00	0.03
+concrete	Kitchen Utensils	bottle	bowl	spoon	10	0	30	40	0.25	0.00	0.75
+concrete	Kitchen Utensils	kettle	oven	plate	31	4	5	40	0.78	0.10	0.13
+concrete	Kitchen Utensils	fork	spatula	toaster	38	0	2	40	0.95	0.00	0.05
+concrete	Music Instrument	guitar	triangle	violin	0	40	0	40	0.00	1.00	0.00
+concrete	Music Instrument	clarinet	drum	piano	1	21	18	40	0.03	0.53	0.45
+concrete	Music Instrument	flute	harmonica	trombone	18	21	1	40	0.45	0.53	0.03
+concrete	Music Instrument	accordion	banjo	harp	5	10	25	40	0.13	0.25	0.63
+concrete	Professions	gardener	nurse	scientist	5	1	34	40	0.13	0.03	0.85
+concrete	Professions	pilot	surgeon	teacher	23	3	14	40	0.58	0.08	0.35
+concrete	Professions	farmer	lawyer	secretary	0	0	40	40	0.00	0.00	1.00
+concrete	Sports	baseball	golf	polo	13	8	19	40	0.33	0.20	0.48
+concrete	Sports	archery	boxing	frisbee	17	21	2	40	0.43	0.53	0.05
+concrete	Sports	cricket	squash	tennis	3	6	31	40	0.08	0.15	0.78
+concrete	Tools	clamp	crowbar	hoe	22	2	16	40	0.55	0.05	0.40
+concrete	Tools	anvil	chisel	hatchet	11	7	22	40	0.28	0.18	0.55
+concrete	Tools	rake	spade	wrench	33	5	2	40	0.83	0.13	0.05
+concrete	Vehicles	boat	limousine	scooter	17	6	17	40	0.43	0.15	0.43
+concrete	Vehicles	airplane	cab	tractor	12	5	23	40	0.30	0.13	0.58
+concrete	Vehicles	buggy	ferry	yacht	1	0	39	40	0.03	0.00	0.98
+concrete	Vehicles	bus	jeep	sled	37	1	2	40	0.93	0.03	0.05
+concrete	Weapons	bomb	grenade	spear	37	1	2	40	0.93	0.03	0.05
+concrete	Weapons	cannon	revolver	shield	32	6	2	40	0.80	0.15	0.05
+concrete	Weapons	dagger	harpoon	stick	28	5	7	40	0.70	0.13	0.18
+concrete	Weapons	bow	rope	shotgun	14	25	1	40	0.35	0.63	0.03
